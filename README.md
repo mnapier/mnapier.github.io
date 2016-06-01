@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.org/PanosSakkos/personal-jekyll-theme.svg?branch=master)
+![Build Status](https://travis-ci.org/mnapier/mnapier.github.io.svg?branch=master)
 [![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PanosSakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # { Personal } Jekyll Theme
@@ -17,7 +17,7 @@ You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-
   * Timeline
     * Tell your story so far with a sleek timeline of dates, pictures and descriptions
   * White on black text, making the reading experience tireless
-  * Google analytics  
+  * Google analytics
 * Customization and full control of your website and blog through the site config
 * Customization of the website's coloring
 * Blogging functionality
