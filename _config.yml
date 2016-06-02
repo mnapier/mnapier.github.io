@@ -115,7 +115,7 @@ events:
   - image: "/img/timeline/savi.svg"
     date: "August 2012 - January 2016"
     description: "Software Engineer @ Savi Technology, Inc"
-  - image: "/img/timeline/galmont.jpg"
+  - image: "/img/timeline/galmont.png"
     date: "March 2011 - August 2012"
     description: "Senior Software Tester @ Galmont Consulting, LLC"
   - image: "/img/timeline/baracktocat.jpg"
@@ -131,6 +131,22 @@ events:
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
+
+#############
+# Portfolio #
+#############
+
+portfolio-enabled: True
+# The number of portfolio boxes to display on the index page
+portfolio-items-to-display: 8
+
+portfolio-items:
+  - image: "/img/portfolio/baracktocat.jpg"
+    title: "Example Project"
+    url: "example-project"
+    short_description: "This is a short description"
+    description: "This is a long description. This is a long description. This is a long description. This is a long description. "
+    link: "http://www.example.com"
 
 ###########
 # Contact #
@@ -181,6 +197,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Timeline: 'timeline'
+  Portfolio: 'portfolio'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
