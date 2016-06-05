@@ -109,22 +109,22 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/kycot.png"
+  - image: "/img/timeline/kycot.jpg"
     date: "February 2016 - Today"
     description: "Senior Java Developer @ Kentucky Commonwealth Office of Technology"
-  - image: "/img/timeline/savi.svg"
+  - image: "/img/timeline/savi.jpg"
     date: "August 2012 - January 2016"
     description: "Software Engineer @ Savi Technology, Inc"
   - image: "/img/timeline/galmont.png"
     date: "March 2011 - August 2012"
     description: "Senior Software Tester @ Galmont Consulting, LLC"
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/bestpcservice.jpg"
     date: "November 2010 - March 2011"
     description: "Independent Contractor @ Best PC Service"
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/coldwellbanker_deslooverrealty.jpg"
     date: "January 2010 - March 2011"
     description: "Web Developer @ Coldwell Banker DeSloover Realty"
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/kygamers.jpg"
     date: "March 2006 - March 2008"
     description: "Web Developer @ KYGamers.com"
 
@@ -135,10 +135,6 @@ timeline-img: "/img/timeline/default.png"
 #############
 # Portfolio #
 #############
-
-portfolio-enabled: True
-# The number of portfolio boxes to display on the index page
-portfolio-items-to-display: 8
 
 portfolio-items:
   - image: "/img/portfolio/baracktocat.jpg"

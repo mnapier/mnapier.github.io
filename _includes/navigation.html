@@ -27,9 +27,6 @@
 
           <!-- Scroll to section for each page in index -->
           {% for p in site.pages_list %}
-            {% if !site.portfolio-enabled and p[1] == "portfolio" %}
-              {% continue %}
-            {% endif %}
             <li>
               <a class="page-scroll" href="#{{ p[1] }}"> {{p[0]}} </a>
             </li>
@@ -46,9 +43,6 @@
                 <a href="{{site.baseurl}}/blog/"> {{p[0]}} </a>
               {% endif %}
             {% else %}
-                {% if !site.portfolio-enabled and p[1] == "portfolio" %}
-                  {% continue %}
-                {% endif %}
                 <a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a>
             {% endif %}
             </li>
