@@ -9,7 +9,7 @@
 
       {% for item in site.portfolio-items %}
       <div class="col-sm-4 portfolio-item">
-        <a href="#todo" class="portfolio-link">
+        <a href="#portfolioModal-{{forloop.index}}" target="_blank" class="portfolio-link">
             <div class="caption">
                 <div class="caption-content">
                   {{ item.title }}

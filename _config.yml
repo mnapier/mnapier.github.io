@@ -16,7 +16,7 @@ baseurl: /mnapier.github.io
 
 # Google tracking id to track your visitors
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-79508162-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -55,16 +55,16 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "TODO"
+  - text: "FIXME"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/me.png"
 
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
-apple-status-bar-style: "black"
+color-browser: "#393D3F"
+apple-status-bar-style: "393D3F"
 
 ################
 # Web app mode #
@@ -111,22 +111,25 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/kycot.jpg"
     date: "February 2016 - Today"
-    description: "Senior Java Developer @ Kentucky Commonwealth Office of Technology"
+    description: "Senior Java Developer @ <a href='http://technology.ky.gov/' target='_blank'>Kentucky Commonwealth Office of Technology</a>"
   - image: "/img/timeline/savi.jpg"
     date: "August 2012 - January 2016"
-    description: "Software Engineer @ Savi Technology, Inc"
+    description: "Software Engineer @ <a href='http://www.savi.com/' target='_blank'>Savi Technology, Inc</a>"
   - image: "/img/timeline/galmont.png"
     date: "March 2011 - August 2012"
-    description: "Senior Software Tester @ Galmont Consulting, LLC"
+    description: "Senior Software Tester @ <a href='http://www.galmont.com/' target='_blank'>Galmont Consulting, LLC</a>"
   - image: "/img/timeline/bestpcservice.jpg"
     date: "November 2010 - March 2011"
-    description: "Independent Contractor @ Best PC Service"
+    description: "Independent Contractor @ <a href='http://www.bestpcsos.com/' target='_blank'>Best PC Service</a>"
   - image: "/img/timeline/coldwellbanker_deslooverrealty.jpg"
     date: "January 2010 - March 2011"
-    description: "Web Developer @ Coldwell Banker DeSloover Realty"
+    description: "Web Developer @ <a href='http://www.coldwellbankerky.com' target='_blank'>Coldwell Banker DeSloover Realty</a>"
   - image: "/img/timeline/kygamers.jpg"
     date: "March 2006 - March 2008"
     description: "Web Developer @ KYGamers.com"
+  - image: "/img/timeline/eku.jpg"
+    date: "August 2005 - May 2010"
+    description: "Computer Science Student @ <a href='http://www.eku.edu/' target='_blank'>Eastern Kentucky University</a>"
 
 # First image of the Timeline
 
@@ -137,12 +140,16 @@ timeline-img: "/img/timeline/default.png"
 #############
 
 portfolio-items:
-  - image: "/img/portfolio/baracktocat.jpg"
-    title: "Example Project"
-    url: "example-project"
-    short_description: "This is a short description"
-    description: "This is a long description. This is a long description. This is a long description. This is a long description. "
-    link: "http://www.example.com"
+  - image: "/img/portfolio/savi-tracking/Savi_ETAaaS_Screenshot_Shipments_Overview.png"
+    title: "Savi Tracking"
+    short_description: "Real-Time Visibility for In-Transit Assets"
+    description: "Savi Tracking identifies and monitors the location and status of your assets in transit. You need to know where your high value assets are, when they will arrive, what condition they are in, and if they are secure. Specialized software and tamperproof hardware secure and monitor multiple cargo types to improve performance, reduce risk, and minimize supply chain disruptions."
+    url: "http://www.savi.com/solutions/applications/savi-tracking/"
+  - image: "/img/portfolio/reloaders-supply/reloaderssupply.com.png"
+    title: "Reloader's Supply"
+    short_description: "WooCommerce based eCommerce website"
+    description: ""
+    url: "http://www.reloaderssupply.com/"
 
 ###########
 # Contact #
